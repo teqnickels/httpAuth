@@ -1,0 +1,26 @@
+{
+  "name": "httpauth",
+  "version": "1.0.0",
+  "description": "In this benchmark goal you're going to build an Express HTTP server that allows users to signup, login and logout of your application.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teqnickels/httpAuth.git"
+  },
+  "author": "debrena mcewen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teqnickels/httpAuth/issues"
+  },
+  "homepage": "https://github.com/teqnickels/httpAuth#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-session": "^1.3.2",
+    "express": "^4.15.5",
+    "nodemon": "^1.12.1",
+    "pg": "^7.3.0"
+  }
+}
